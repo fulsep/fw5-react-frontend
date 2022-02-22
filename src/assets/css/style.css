@@ -1,0 +1,357 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  color: #000;
+}
+
+a.link {
+  color: #FFCD61;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Playfair Display', Times, serif;
+}
+
+.header-forgot {
+  background-image: url(../images/header-forgot.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-forgot .header-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 758px;
+  color: white;
+}
+
+.header-forgot .header-content .header-nav {
+  margin: 0 89px;
+  padding-top: 74px;
+}
+
+.header-forgot .header-content .header-nav i {
+  font-size: 30px;
+  margin-right: 76px;
+}
+
+.header-forgot .header-content .header-nav span {
+  font-size: 24px;
+}
+
+.header-forgot .header-content h1.heading {
+  font-size: 64;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-weight: bold;
+  line-height: 85px;
+  margin-top: 40px;
+}
+
+.header-forgot .header-content form div {
+  text-align: center;
+}
+
+.header-forgot .header-content form div input {
+  height: 79px;
+  width: 447px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  margin-bottom: 31px;
+}
+
+.header-forgot .header-content form div input:focus {
+  outline: none;
+}
+
+.header-forgot .header-content form div input::placeholder {
+  color: white;
+}
+
+.header-forgot .header-content form div button.button-send {
+  background-color: #FFCD61;
+  font-size: 24px;
+  height: 79px;
+  width: 447px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 900;
+}
+
+.header-forgot .header-content .text {
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 54px;
+}
+
+footer.footer {
+  margin-top: 69px;
+}
+
+footer.footer .row.text {
+  margin-bottom: 78px;
+}
+
+footer.footer ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+footer.footer .description {
+  margin-top: 26px;
+  margin-bottom: 53px;
+  width: 300px;
+}
+
+.link-social {
+  border-top: 1px solid #C4C4C4;
+  padding: 31px;
+  text-align: center;
+}
+
+.link-social svg {
+  font-size: 25px;
+  margin-left: 17.5px;
+  margin-right: 17.5px;
+}
+
+nav.navbar {
+  height: 168px;
+}
+
+nav.container {
+  padding-top: 81px;
+}
+
+nav.container .link {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+nav.container .link li {
+  display: inline-block;
+  margin: 0 17.5px;
+}
+
+nav.container .link li a {
+  color: #B8BECD;
+  text-decoration: none;
+}
+
+nav.container .link li a.active {
+  color: #000;
+}
+
+button {
+  min-width: 132px;
+  min-height: 44px;
+  border-radius: 8px;
+}
+
+.button-outline {
+  background-color: transparent;
+  border: 1px solid #FFCD61;
+  /* border-width: 1px;
+  border-color: #FFCD61;
+  border-style: solid; */
+}
+
+.button-filled {
+  background-color: #FFCD61;
+  border: unset;
+}
+
+.button-dark {
+  background-color: #393939;
+  border: unset;
+}
+
+.button-gray {
+  background-color: rgba(203, 203, 212, 0.27);
+  border: unset;
+}
+
+.profile-edit .button-filled,
+.profile-edit .button-dark,
+.profile-edit .button-gray {
+  width: 322px;
+  height: 89px;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.button-dark {
+  color: #FFCD61;
+}
+
+.profile-edit .big-name {
+  font-family: 'Playfair Display', Times, serif;
+  font-weight: bold;
+}
+
+.profile-edit .details {
+  font-weight: bold;
+  color: #B8BECD;
+  font-size: 24px;
+}
+
+.profile-edit .edit-photo {
+  position: absolute;
+  background: #FFCD61;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  min-height: unset;
+  min-width: unset;
+  border: unset;
+  color: #393939;
+  bottom: 0;
+  right: 0;
+}
+
+.input-underline {
+  border: 0;
+  border-bottom: 1px solid #000;
+  padding-bottom: 26px;
+  height: 40px;
+}
+
+.input-underline:focus {
+  outline: none;
+}
+
+
+.radio-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.radio-button input {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.radio-button .checkmark {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  border: 3px solid #9F9F9F;
+  display: inline-block;
+}
+
+.radio-button .text {
+  display: inline-block;
+  margin-left: 19px;
+}
+
+.radio-button input:checked~.checkmark {
+  border-color: #393939;
+  background-color: #FFCD61;
+}
+
+.login-page .bg-image {
+  background-image: url('../images/banner-login.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login-page form {
+  margin: 95px 101px 56px 101px;
+}
+
+.login-page h1 {
+  font-family: 'Playfair Display', Times, serif;
+  font-weight: 900;
+  margin-bottom: 80px;
+}
+
+.form-control[type=email],
+.form-control[type=password],
+.form-control[type=text] {
+  background-color: rgba(218, 218, 218, 0.28);
+  min-height: 59px;
+}
+
+.form-control[type=email]:focus,
+.form-control[type=password]:focus,
+.form-control[type=text]:focus {
+  box-shadow: none;
+  border-color: unset;
+  outline: none;
+}
+
+.form-control[type=email]::placeholder,
+.form-control[type=password]::placeholder,
+.form-control[type=text]::placeholder {
+  color: #393939;
+}
+
+.item-list .text {
+  width: 100px;
+  text-align: left;
+}
+
+.item-list img {
+  border-radius: 20px;
+}
+
+
+@media (max-width: 500px) {
+  .header-forgot .header-content {
+    padding: 0 10px;
+  }
+
+  .header-forgot .header-content form div input {
+    width: 100%;
+  }
+
+  .header-forgot .header-content form div button.button-send {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .toggled-action {
+    text-align: center;
+  }
+
+  .profile-edit .button-filled,
+  .profile-edit .button-dark,
+  .profile-edit .button-gray {
+    width: 150px;
+    height: 80px;
+    font-weight: 900;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1439px) {
+  .navigation {
+    height: 80px;
+  }
+
+  .logo-brand {
+    justify-content: center;
+  }
+
+  .auth-action {
+    text-align: center;
+  }
+}
